@@ -1,0 +1,87 @@
+\documentclass[10pt, pdf, hyperref={unicode}]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usetheme{Berlin}
+
+\title{Прецизионное измерение энергии в системе центра масс и её разброса на коллайдере $\mu\mu$-трон}
+
+\begin{document}
+\maketitle
+
+\begin{frame}
+	\frametitle{План}
+	1.) Проект коллайдера $\mu\mu$-трон.\\
+	2.) Постановка эксперимента.\\
+	3.) Сканирование по энергии.\\
+	4.) Измерение энергии в системе центра масс и её сдвига.\\
+	5.) Измерение разброса по энергии.\\
+	6.) Заключение.\\
+	7.) Оглавление дипломной работы.\\
+\end{frame}
+
+\begin{frame}
+	\frametitle{Проект коллайдера $\mu\mu$-трон}
+	\begin{minipage}{\linewidth}
+		\begin{columns}[T]
+			\begin{column}{0.5\linewidth}
+				\includegraphics[width = 0.95\linewidth]{mumutron.png}
+			\end{column}
+
+			\begin{column}{0.5\linewidth}
+				\includegraphics[width = 0.95\linewidth]{intreg.png}
+			\end{column}
+		\end{columns}
+	\end{minipage}
+\end{frame}
+
+\begin{frame}
+\begin{minipage}{\linewidth}
+	\begin{columns}[T]
+		\begin{column}{0.5\linewidth}
+			\begin{flushleft}
+				\includegraphics[width = 0.6\linewidth]{beams1.png}
+				\includegraphics[width = 0.6\linewidth]{beams2.png}
+			\end{flushleft}
+		\end{column}
+
+		\begin{column}{0.5\linewidth}
+			Параметры коллайдера:\\
+			$E_{\text{beam}} \approx 408\text{ MeV}$\\
+			$E_{cm} \approx 211\text{ MeV}$\\
+			Периметр $23\text{ м}$\\
+			$\sigma_{E_{beam}}/E_{beam} \approx 7.8 \cdot 10^{-4}$\\
+			$\sigma_{E_{cm}} \approx 0.4\text{ MeV}$\\
+			$\alpha \approx 75^{\circ}$\\
+			$\sigma_{\alpha} \approx 6.8 \cdot 10^{-4}$\\
+			Светимость $8 \cdot 10^{31}\text{ $cm^{-2}c^{-1}$}$\\
+		\end{column}
+	\end{columns}
+\end{minipage}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Постановка эксперимента}
+	1.) Сканирование порогового региона по энергии.\\
+	2.) Установка пороговой энергии.\\
+	3.) Набор статистики.\\
+\end{frame}
+
+\begin{frame}
+	\frametitle{Измерение энергии в системе центра масс и её сдвига}
+	\begin{minipage}{\linewidth}
+		\begin{columns}[T]
+			\begin{column}{0.5\linewidth}
+				\includegraphics[widht = 0.3\linewidth]{diagram1.pdf}
+				\includegraphics[widht = 0.3\linewidth]{diagram2.pdf}
+				\includegraphics[widht = 0.3\linewidth]{diagram3.pdf}
+			\end{column}
+
+			\begin{column}{0.5\linewidth}
+			\end{column}
+		\end{columns}
+	\end{minipage}
+\end{frame}
+
+\end{document}

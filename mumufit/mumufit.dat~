@@ -1,0 +1,12 @@
+SET TITLE
+Fit on cross section e+e- -> kkpi
+PARAMETERS
+ 1 'DE'      0.      0.1
+ 2 'Sgm'     0.400   0.04        
+
+
+set err 0.5
+set eps 1e-8
+mini
+minos
+ret

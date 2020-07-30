@@ -1,0 +1,9 @@
+*** Begin of history file: Sun Apr 21 17:31:35 2019
+/ve/re e,c1,c2 'sigma_pol.dat'
+/ve/plot c1%e
+/ve/plot c2%e
+/ve/plot c1%e
+/ve/plot c2%e 's'
+/ve/plot c1%e s
+q
+*** End   of history file: Sun Apr 21 17:32:20 2019
